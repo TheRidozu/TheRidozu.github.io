@@ -1,0 +1,28 @@
+/* sections */
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1150px;
+    margin: 0 auto;
+}
+
+h1 {
+    font-family: Epilogue;
+    font-size: 80px;
+    font-weight: 600;
+    line-height: 90px;
+    margin-bottom: 40px;
+}
+
+@import './header.css';
+@import './hero.css';
+@import './sponsorzy.css';
+@import './skile.css';
+@import './pracezdjecia.css';
+@import './opinie.css';
+@import './footer.css';
